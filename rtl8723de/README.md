@@ -1,4 +1,4 @@
-#Realtek RTL8723DE
+# Realtek RTL8723DE
 
 module rtl8723de.ko
 
