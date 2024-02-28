@@ -9,8 +9,13 @@ module rtl8821ce.ko
 	Download the branch:
 		git clone https://github.com/frerd7/driver.git
 		cd ./driver
-		sudo dkms add -m rtl8821ce -v 5.5.2.1
-		sudo dkms build -m rtl8821ce -v 5.5.2.1
-		sudo dkms install -m rtl8821ce -v 5.5.2.1
+		sudo dkms add -m rtl8821ce_v5.5.2.1 -v v5.5.2_34066.20200325
+		sudo dkms build -m rtl8821ce_v5.5.2.1 -v v5.5.2_34066.20200325
+		sudo dkms install -m rtl8821ce_v5.5.2.1 -v v5.5.2_34066.20200325
 		dkms status
 		sudo reboot
+       Or:
+		git clone https://github.com/frerd7/driver.git
+		cd ./driver/rtl8821ce_v5.5.2.1
+		sudo dkms-install.sh
+	

@@ -9,7 +9,13 @@ module rtl8723de.ko
 	Download the branch:
 		git clone https://github.com/frerd7/driver.git
 		cd ./driver
-		sudo dkms add -m rtl8723de -v 5.1.1.8_21285.20171026_COEX20170111-1414
-		sudo dkms build -m rtl8723de -v 5.1.1.8_21285.20171026_COEX20170111-1414
-		sudo dkms install -m rtl8723de -v 5.1.1.8_21285.20171026_COEX20170111-1414
+		sudo dkms add -m rtl8723de_v5.1.1 -v v5.1.1.8_21285.20171026
+		sudo dkms build -m rtl8723de_v5.1.1 -v v5.1.1.8_21285.20171026
+		sudo dkms install -m rtl8723de_v5.1.1 -v v5.1.1.8_21285.20171026
 		dkms status
+		sudo reboot
+	Or:
+		git clone https://github.com/frerd7/driver.git
+		cd ./driver/rtl8723de_v5.1.1
+		sudo dkms-install.sh
+
