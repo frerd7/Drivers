@@ -8,13 +8,14 @@ The modules are:
 
 ## HW support
 - Support Kernel Linux:
-		[*] rtl8723de-v5.1.1 =< 5.x.x.x
-		[*] rtl8821ce-v5.5.2.1 =< 5.x.x.x
-		[*] rtl8821ce-v5.5.2 >= 6.x.x.x
+	rtl8723de-v5.1.1 =< 5.x.x.x
+	rtl8821ce-v5.5.2.1 =< 5.x.x.x
+	rtl8821ce-v5.5.2 >= 6.x.x.x
+
 - Support Adapter:
 	Realtek Semiconductor Corp: 
-		- Realtek RTL8821CE 802.11ac PCIe Wireless Network Adapter
-		- Realtek RTL8723DE 802.11ac PCIe Wireless Network Adapter
+	- Realtek RTL8821CE 802.11ac PCIe Wireless Network Adapter
+	- Realtek RTL8723DE 802.11ac PCIe Wireless Network Adapter
 	
 ## Specification
     Support:
